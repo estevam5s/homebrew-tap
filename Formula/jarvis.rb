@@ -3,7 +3,7 @@ class Jarvis < Formula
   homepage "https://jarvis-micro-saas.vercel.app"
   url "https://wpmohryglkkkgqpxdrjr.supabase.co/storage/v1/object/public/releases/v0.2.1/JARVIS-0.2.1-macos.zip"
   version "0.2.1"
-  sha256 "54504618281869ffc84134dea035edf3719e79a2721d2dd50fb89326816a354d"
+  sha256 "b85e1899b4e2aeaa0c5b429111d4ef2222aa50df017d396495d93102a559b134"
   license :cannot_represent
 
   depends_on "python@3.12"
