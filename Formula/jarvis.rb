@@ -9,7 +9,9 @@ class Jarvis < Formula
   depends_on "python@3.12"
 
   def install
-    libexec.install Dir["*"]
+    # Dir["*"] ignora arquivos ocultos, e sem o .env.example o wrapper não tem
+    # de onde criar a configuração inicial.
+    libexec.install Dir["*"] + Dir[".[^.]*"]
 
     # O JARVIS roda a partir de ~/.jarvis, não do prefixo do Homebrew, por dois
     # motivos: `brew install` roda numa sandbox sem rede (um `pip install` aqui
