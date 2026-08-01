@@ -1,9 +1,9 @@
 class Jarvis < Formula
   desc "Assistente de voz que roda local no seu Mac"
   homepage "https://jarvis-micro-saas.vercel.app"
-  url "https://wpmohryglkkkgqpxdrjr.supabase.co/storage/v1/object/public/releases/v0.2.0/JARVIS-0.2.0-macos.zip"
-  version "0.2.0"
-  sha256 "4cd3dc27137a45345592eda2ad186c25d83874107bf18615eabbd8219f4e3c9c"
+  url "https://wpmohryglkkkgqpxdrjr.supabase.co/storage/v1/object/public/releases/v0.2.1/JARVIS-0.2.1-macos.zip"
+  version "0.2.1"
+  sha256 "54504618281869ffc84134dea035edf3719e79a2721d2dd50fb89326816a354d"
   license :cannot_represent
 
   depends_on "python@3.12"
